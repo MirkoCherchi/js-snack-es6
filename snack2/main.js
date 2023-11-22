@@ -25,9 +25,12 @@ function generaNumeroCasuale(min, max) {
 squadreCalcio.forEach((squadra) => {
     squadra.punti = generaNumeroCasuale(0, 100);
     squadra.falliSubiti = generaNumeroCasuale(0, 500);
-    console.log(squadra.punti);
 });
-
+const classifica = squadreCalcio.sort((a, b) => b.punti - a.punti);
 const nomiFalli = squadreCalcio.map(({ nome, falliSubiti }) => ({ nome, falliSubiti }));
-
-console.log(nomiFalli);
+console.log('Squadre con nome e falli:', nomiFalli);
+console.log('Classifica:');
+classifica.forEach((squadra, i) => {
+    console.log(`${i + 1}. ${squadra.nome} - Punti: ${squadra.punti}`);
+    
+});
