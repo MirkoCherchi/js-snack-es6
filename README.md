@@ -19,3 +19,4 @@ Creiamo un array di oggetti, ogni oggetto descriverà delle bici da corsa con no
 
 Creiamo un array di oggetti di squadre di calcio, ogni squadra avrà un nome, punti fatti, falli subiti.
 generiamo numeri random da 1 a 100 per punti e falli, destrutturiamo l'array e ne creiamo uno nuovo che contenga soltanto nome squadra e falli subiti, stampiamo in console.
+Con un pò di documentazione ho creato anche una classifica in base ai punti usando la funzione .sort
