@@ -14,3 +14,8 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 ### ESECUZIONE Snack 1:
 
 Creiamo un array di oggetti, ogni oggetto descriverà delle bici da corsa con nome e peso, confrontismo il peso di ogni bici e quella con il peso minore la stamperemo a schermo
+
+### ESECUZIONE Snack 2:
+
+Creiamo un array di oggetti di squadre di calcio, ogni squadra avrà un nome, punti fatti, falli subiti.
+generiamo numeri random da 1 a 100 per punti e falli, destrutturiamo l'array e ne creiamo uno nuovo che contenga soltanto nome squadra e falli subiti, stampiamo in console.
